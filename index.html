@@ -1,9 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title> Portfolio of mitchthebaker </title>
+    <title> Portfolio of Mitchel Baker </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
-    Mitchel Baker
+    <main>
+      <header id="header">
+        <label for="myInput">
+          <span class="bar top"></span>
+          <span class="bar middle"></span>
+          <span class="bar bottom"></span>
+        </label>
+
+        <div class="accountLinks">
+          <nav class="links" style="--items: 2;">
+        		<a href="#">LinkedIn <i class="fab fa-linkedin-in"></i> </a>
+        		<a href="#">Github <i class="fab fa-github"></i> </a>
+        		<span class="line"></span>
+        	</nav>
+        </div>
+      </header>
+    <!--  CUT OFF HERE
+      <section class="welcomeContainer">
+        <span> Mitchel Richard Padron Baker </span>
+        <span> Full Stack Developer and Student </span>
+        <div class="dividerLine"> . </div>
+      </section>
+    -->
+      <div class="container">
+        <div id="content-slider">
+          <div id="slider">  <!-- Slider container -->
+            <div id="mask">  <!-- Mask -->
+              <ul>
+                <li id="first" class="firstanimation">  <!-- ID for tooltip and class for animation -->
+                  <a href="#"> <img src="./public/images/codeSnap1.jpg" alt="codeSnap1"/> </a>
+                  <div class="tooltip"> <h1>Cougar</h1> </div>
+                </li>
+
+                <li id="second" class="secondanimation">
+                  <a href="#"> <img src="./public/images/codeSnap2.jpg" alt="codeSnap2"/> </a>
+                  <div class="tooltip"> <h1>Lions</h1> </div>
+                </li>
+
+                <li id="third" class="thirdanimation">
+                  <a href="#"> <img src="./public/images/codeSnap3.jpg" alt="codeSnap3"/> </a>
+                  <div class="tooltip"> <h1>Snowalker</h1> </div>
+                </li>
+
+                <li id="fourth" class="fourthanimation">
+                  <a href="#"> <img src="./public/images/codeSnap4.jpg" alt="codeSnap4"/> </a>
+                  <div class="tooltip"> <h1>Howling</h1> </div>
+                </li>
+
+                <li id="fifth" class="fifthanimation">
+                  <a href="#"> <img src="./public/images/codeSnap5.jpg" alt="codeSnap5"/> </a>
+                  <div class="tooltip"> <h1>Sunbathing</h1> </div>
+                </li>
+               </ul>
+             </div>  <!-- End Mask -->
+             <div class="progress-bar"></div>  <!-- Progress Bar -->
+            </div>  <!-- End Slider Container -->
+         </div>
+      </div>
+      <input type="checkbox" id="myInput">
+
+      <aside>
+        <div class="aside-section aside-left">
+          <div class="aside-content">
+            <p> Some text that will make you click the cta </p>
+            <button class="button"> CTA </button>
+          </div>
+        </div>
+        <div class="aside-section aside-right">
+          <ul class="aside-list">
+            <li><a href="" class="aside-anchor"> Home </a></li>
+            <li><a href="" class="aside-anchor"> Portfolio </a></li>
+            <li><a href="" class="aside-anchor"> Contact </a></li>
+            <li><a href="" class="aside-anchor"> About </a></li>
+          </ul>
+        </div>
+      </aside>
+      <footer>
+        <div class="divInFooter">
+          <h3> Outsmart the machine | 2019 </h3>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
