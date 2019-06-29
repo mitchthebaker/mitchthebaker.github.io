@@ -72,9 +72,10 @@
 }
 /* Appearance */
  .links {
+   /*
      background-color: #B375D9;
      background-image: linear-gradient(to bottom, #B375D9, transparent);
-    /* #0003 */
+     #0003 */
     /*box-shadow: 0 0 32px #0003;
     */
      font-size: 20px;
