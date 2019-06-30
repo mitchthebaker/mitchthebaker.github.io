@@ -110,6 +110,8 @@
      left: 0;
      right: 0;
      z-index: 200;
+     background: rgba(204, 204, 204, 0.3);
+     border-bottom: solid white 1px;
 }
 
 footer {
@@ -119,7 +121,7 @@ footer {
 }
 
 .divInFooter {
-  margin-top: 25px;
+  margin: 10px 0 0 0;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -377,7 +379,7 @@ footer {
      box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
      height: 500px;
      width: 92%;
-     margin: 100px auto 0;
+     margin: 70px auto 0;
      overflow: visible;
      position: relative;
 }
