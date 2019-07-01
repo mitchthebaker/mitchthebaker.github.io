@@ -799,7 +799,7 @@ hr {
   margin: 5px;
 }
 
-.project_Buttons a {
+.project_Buttons span {
   -webkit-appearance: none; /* button */
   -moz-appearance: none;
   appearance: none;
@@ -813,14 +813,16 @@ hr {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
-.project_Buttons a:hover {
+.project_Buttons span:hover {
   background-color: #B375D9;
   transition: 75ms ease-in;
 }
 
-.buttonSpan {
+.buttonA {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: white;
 }
 
 .heartBleedImg1 {
