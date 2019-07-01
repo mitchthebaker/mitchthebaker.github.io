@@ -818,6 +818,11 @@ hr {
   transition: 75ms ease-in;
 }
 
+.buttonSpan {
+  margin: 0;
+  padding: 0;
+}
+
 .heartBleedImg1 {
   width: 300px;
   height: 300px;
