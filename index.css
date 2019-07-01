@@ -800,6 +800,7 @@ hr {
 }
 
 .project_Buttons div {
+  display: block;
   -webkit-appearance: none; /* button */
   -moz-appearance: none;
   appearance: none;
