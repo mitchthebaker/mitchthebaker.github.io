@@ -800,9 +800,9 @@ hr {
 }
 
 .project_Buttons a {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+  -webkit-appearance: none; /* button */
+  -moz-appearance: none;
+  appearance: none;
   text-decoration: none;
   color: white;
   background: rgba(204, 204, 204, 0.3);
