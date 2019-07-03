@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Portfolio of Mitchel Baker </title>
+    <title> mitchthebaker.me </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
@@ -36,24 +36,17 @@
           </div>
           <div class="aside-section aside-right">
             <ul class="aside-list">
-              <li> <a href="index.html#content-slider" class="aside-anchor"> Home </a> </li>
+              <li> <a href="index.html#home" class="aside-anchor"> Home </a> </li>
               <li> <a href="index.html#heartbleed" class="aside-anchor"> Heartbleed </a> </li>
               <li> <a href="index.html#flashPass" class="aside-anchor"> Flash Photo </a> </li>
               <li> <a href="index.html#biConvex" class="aside-anchor"> BiConvex Eye </a> </li>
               <li> <a href="index.html#worldScrape" class="aside-anchor"> World-Scrape </a> </li>
+              <li> <a href="index.html#autoCAD4Final" class="aside-anchor"> Mars Biodome </a> </li>
               <li> <a href="" class="aside-anchor"> About </a> </li>
               <li> <a href="" class="aside-anchor"> Contact </a> </li>
             </ul>
           </div>
         </aside>
-
-        <div class="accountLinks">
-          <nav class="links" style="--items: 2;">
-        		<a href="https://www.linkedin.com/in/mitchel-richard-padron-baker-146768146/">LinkedIn <i class="fab fa-linkedin-in"></i> </a>
-        		<a href="https://github.com/mitchthebaker">Github <i class="fab fa-github"></i> </a>
-        		<span class="line"></span>
-        	</nav>
-        </div>
       </header>
     <!--  CUT OFF HERE
       <section class="welcomeContainer">
@@ -63,6 +56,33 @@
       </section>
     -->
       <div class="container">
+        <div id="home" class="intro_Description">
+          <h1 class="descriptionInterior_H1">
+            Mitchel Richard Padron Baker
+
+            <h3 class="H1_InnerInterior">
+              Student and Full Stack Developer
+            </h3>
+          </h1>
+          <hr id="hr_Intro"/>
+          <p class="descriptionInterior_P">
+            Stoked on everything Computer Science related, contact me with whatever option is the most preferable <i id="arrowDown" class="fas fa-level-down-alt"></i>
+          </p>
+
+          <!-- <section class="project_Buttons">
+            <div> <a class="buttonA" target="_blank" href="https://www.linkedin.com/in/mitchel-richard-padron-baker-146768146/"> <i class="fab fa-linkedin"></i> </a> </div>
+            <div> <a class="buttonA" target="_blank" href="https://www.instagram.com/mitchthebaker/"> <i class="fab fa-instagram"></i> </a> </div>
+          </section> -->
+
+          <div class="accountLinks">
+            <nav class="links" style="--items: 3;">
+          		<a href="https://www.linkedin.com/in/mitchel-richard-padron-baker-146768146/">LinkedIn <i class="fab fa-linkedin-in"></i> </a>
+          		<a href="https://github.com/mitchthebaker">Github <i class="fab fa-github"></i> </a>
+              <a href="https://github.com/mitchthebaker"> Instagram <i class="fab fa-instagram"></i>  </a>
+          		<span class="line"></span>
+          	</nav>
+          </div>
+        </div>
         <div id="content-slider">
           <div id="slider">  <!-- Slider container -->
             <div id="mask">  <!-- Mask -->
@@ -104,25 +124,30 @@
                Unleash the power of your creature cards to lower your opponent's life total to 0, or create your own
                deck to master the battlefield.
              </p>
+             <p class="descriptionInterior_P">
+               The playtest version of Heartbleed is currently under development and will be released for users to test within the near future.
+             </p>
            </section>
            <section class="project_Buttons">
              <!-- <a href=""> <span class="buttonSpan"> Get Started </span> </a>
              <a href=""> <span class="buttonSpan"> Code Base </span> </a> -->
-             <div> <a class="buttonA" href=""> Get Started </a> </div>
-             <div> <a class="buttonA" href=""> Source Code </a> </div>
+             <div> <a class="buttonA" href="index.html#heartbleed"> Get Started </a> </div>
+             <div> <a class="buttonA" href="index.html#heartbleed"> Source Code </a> </div>
            </section>
            <img class="heartBleedImg1" src="./public/images/heartbleedGame1.jpg">
          <hr/>
          </div>
          <div id="flashPass" class="project-Content">
-           <section class="project-Description">
+           <section id="project-DescriptionFlashPass" class="project-Description">
              <h1 class="descriptionInterior_H1"> FlashPass: A FlashCard Study Tool </h1>
              <p class="descriptionInterior_P"> Study new vocabulary, new ideas, or concepts by generating flashcard sets, or discover helpful sets from others. </p>
            </section>
+
            <section class="project_Buttons">
-             <div> <a class="buttonA" href=""> Get Started </a> </div>
-             <div> <a class="buttonA" href=""> Source Code </a> </div>
+             <div> <a class="buttonA" target="_blank" href="https://flashpass.herokuapp.com/"> Get Started </a> </div>
+             <div> <a class="buttonA" target="_blank" href="https://github.com/mitchthebaker/Flash-App"> Source Code </a> </div>
            </section>
+
            <img class="flashPass1" src="./public/images/flashPass1.jpg">
          </div>
          <hr/>
@@ -132,8 +157,8 @@
              <p class="descriptionInterior_P"> The BiConvex Eye is a Photography Portfolio dedicated to the wonderful planet that we have the opportunity to inhabit. </p>
            </section>
            <section class="project_Buttons">
-             <div> <a class="buttonA" href=""> Get Started </a> </div>
-             <div> <a class="buttonA" href=""> Source Code </a> </div>
+             <div> <a class="buttonA" target="_blank" href="https://biconvex.herokuapp.com/main"> Explore </a> </div>
+             <div> <a class="buttonA" target="_blank" href="https://github.com/mitchthebaker/PhotoFolio"> Source Code </a> </div>
            </section>
            <img class="flashPass1" src="./public/images/biconvex1.jpg">
          </div>
@@ -144,13 +169,22 @@
              <p class="descriptionInterior_P"> Discover international news articles within a single application without redirecting to other sites. </p>
            </section>
            <section class="project_Buttons">
-             <div> <a class="buttonA" href=""> Get Started </a> </div>
-             <div> <a class="buttonA" href=""> Source Code </a> </div>
+             <div> <a class="buttonA" target="_blank" href="https://world-scrape.herokuapp.com/"> Discover </a> </div>
+             <div> <a class="buttonA" target="_blank" href="https://github.com/mitchthebaker/yt-scrape"> Source Code </a> </div>
            </section>
            <img class="flashPass1" src="./public/images/flashPass1.jpg">
          </div>
          <hr/>
-
+         <div id="autoCAD4Final" class="project-Content">
+           <section class="project-Description">
+             <h1 class="descriptionInterior_H1"> Mars Biodome Colony Concept and Design </h1>
+             <p class="descriptionInterior_P"> A permanent space colony on Mars developed with a bio-dome design aimed at deflecting away harmful radiation; Supports a series of hydroponic systems allowing for the cultivation of edible crops; Provides inhabitants with medical/health care benefits.  </p>
+           </section>
+           <section class="project_Buttons">
+             <div> <a class="buttonA" target="_blank" href="https://docs.google.com/presentation/d/1hATldUELSEKlsFtPrD6CdkcR3BfX9cW5fR_eRpq1W7Y/edit#slide=id.p"> View </a> </div>
+           </section>
+           <img class="autoCAD4Final" target="_blank" src="./public/images/autoCAD4FinalPRoject.jpg">
+         </div>
     </main>
   </body>
 </html>

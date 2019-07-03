@@ -391,6 +391,33 @@ footer {
          width: 60%;
     }
 }
+
+.intro_Description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.H1_InnerInterior {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin: 0px 10px 10px 10px;
+  padding: 0;
+}
+
+#hr_Intro {
+  width: 75%;
+  margin: 10px;
+}
+
+#arrowDown {
+  font-size: 12px;
+  color: white;
+}
+
  #slider {
      background: #000;
      border: 3px solid white;
@@ -398,7 +425,7 @@ footer {
      box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
      height: 500px;
      width: 92%;
-     margin: 70px auto 0;
+     margin: 30px auto 0;
      overflow: visible;
      position: relative;
      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
@@ -693,14 +720,18 @@ footer {
   /*justify-content: center;*/
   align-items: center;
   width: 100%;
-  height: 620px;
+  height: 675px;
   margin: 20px auto 0px auto;
 }
 
 .project-Description {
   display: block;
   width: 100%;
-  height: 200px;
+  height: 275px;
+}
+
+#project-DescriptionFlashPass {
+  height: 175px;
 }
 
 .descriptionInterior_H1 {
@@ -847,6 +878,19 @@ hr {
 .flashPass1 {
   width: 300px;
   height: 400px;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 2px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.worldScrape {
+
+}
+
+.autoCAD4Final {
+  width: 300px;
+  height: 275px
   margin: 10px;
   border: 1px solid white;
   border-radius: 2px;
