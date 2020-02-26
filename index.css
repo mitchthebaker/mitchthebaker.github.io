@@ -724,9 +724,10 @@ footer {
   margin: 20px auto 0px auto;
 }
 
-.project-Content:nth-child(2n) {
+/*.project-Content:nth-child(2n) {
     background-color: rgb(250, 250, 255);
 }
+*/
 
 .project-Description {
   display: block;
