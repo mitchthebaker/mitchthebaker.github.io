@@ -423,7 +423,7 @@ footer {
      border: 3px solid white;
      border-radius: 2px;
      box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-     height: 500px;
+     height: 450px;
      width: 550px;
      margin: 30px auto 0;
      overflow: visible;
@@ -432,7 +432,7 @@ footer {
 }
  #mask {
      overflow: hidden;
-     height: 500px;
+     height: 450px;
 }
  #slider ul {
      margin: 0;
